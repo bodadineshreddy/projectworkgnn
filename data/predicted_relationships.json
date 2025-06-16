@@ -1,0 +1,527 @@
+[
+  {
+    "ticket1": "ENT-22970",
+    "ticket2": "PORT-133061",
+    "confidence": 0.6499379873275757
+  },
+  {
+    "ticket1": "ENT-22970",
+    "ticket2": "SEC-789",
+    "confidence": 0.6377890706062317
+  },
+  {
+    "ticket1": "ENT-22970",
+    "ticket2": "PERF-456",
+    "confidence": 0.6545770764350891
+  },
+  {
+    "ticket1": "ENT-22970",
+    "ticket2": "UI-234",
+    "confidence": 0.635129988193512
+  },
+  {
+    "ticket1": "ENT-22970",
+    "ticket2": "INFRA-567",
+    "confidence": 0.6788740754127502
+  },
+  {
+    "ticket1": "ENT-22970",
+    "ticket2": "API-890",
+    "confidence": 0.6744173765182495
+  },
+  {
+    "ticket1": "ENT-22970",
+    "ticket2": "TEST-456",
+    "confidence": 0.6523540019989014
+  },
+  {
+    "ticket1": "ENT-22970",
+    "ticket2": "MON-123",
+    "confidence": 0.6224167943000793
+  },
+  {
+    "ticket1": "ENT-22970",
+    "ticket2": "DOC-567",
+    "confidence": 0.6384615898132324
+  },
+  {
+    "ticket1": "ENT-22970",
+    "ticket2": "FEAT-789",
+    "confidence": 0.6597073078155518
+  },
+  {
+    "ticket1": "ENT-22970",
+    "ticket2": "MOBILE-234",
+    "confidence": 0.6488541960716248
+  },
+  {
+    "ticket1": "ENT-22970",
+    "ticket2": "SEC-901",
+    "confidence": 0.6692101359367371
+  },
+  {
+    "ticket1": "ENT-22970",
+    "ticket2": "UI-567",
+    "confidence": 0.6471878290176392
+  },
+  {
+    "ticket1": "ENT-22970",
+    "ticket2": "PERF-789",
+    "confidence": 0.6619102358818054
+  },
+  {
+    "ticket1": "PORT-133061",
+    "ticket2": "SEC-789",
+    "confidence": 0.6453307271003723
+  },
+  {
+    "ticket1": "PORT-133061",
+    "ticket2": "PERF-456",
+    "confidence": 0.6670392155647278
+  },
+  {
+    "ticket1": "PORT-133061",
+    "ticket2": "UI-234",
+    "confidence": 0.6314725279808044
+  },
+  {
+    "ticket1": "PORT-133061",
+    "ticket2": "INFRA-567",
+    "confidence": 0.6805686354637146
+  },
+  {
+    "ticket1": "PORT-133061",
+    "ticket2": "API-890",
+    "confidence": 0.67598956823349
+  },
+  {
+    "ticket1": "PORT-133061",
+    "ticket2": "TEST-456",
+    "confidence": 0.6559203863143921
+  },
+  {
+    "ticket1": "PORT-133061",
+    "ticket2": "MON-123",
+    "confidence": 0.6237323880195618
+  },
+  {
+    "ticket1": "PORT-133061",
+    "ticket2": "DOC-567",
+    "confidence": 0.637695848941803
+  },
+  {
+    "ticket1": "PORT-133061",
+    "ticket2": "FEAT-789",
+    "confidence": 0.6610636711120605
+  },
+  {
+    "ticket1": "PORT-133061",
+    "ticket2": "MOBILE-234",
+    "confidence": 0.6570873260498047
+  },
+  {
+    "ticket1": "PORT-133061",
+    "ticket2": "SEC-901",
+    "confidence": 0.6805384755134583
+  },
+  {
+    "ticket1": "PORT-133061",
+    "ticket2": "UI-567",
+    "confidence": 0.6606279611587524
+  },
+  {
+    "ticket1": "PORT-133061",
+    "ticket2": "PERF-789",
+    "confidence": 0.6635580658912659
+  },
+  {
+    "ticket1": "SEC-789",
+    "ticket2": "PERF-456",
+    "confidence": 0.613300621509552
+  },
+  {
+    "ticket1": "SEC-789",
+    "ticket2": "UI-234",
+    "confidence": 0.5874543786048889
+  },
+  {
+    "ticket1": "SEC-789",
+    "ticket2": "INFRA-567",
+    "confidence": 0.633550763130188
+  },
+  {
+    "ticket1": "SEC-789",
+    "ticket2": "API-890",
+    "confidence": 0.6148321032524109
+  },
+  {
+    "ticket1": "SEC-789",
+    "ticket2": "TEST-456",
+    "confidence": 0.5911085605621338
+  },
+  {
+    "ticket1": "SEC-789",
+    "ticket2": "MON-123",
+    "confidence": 0.5457347631454468
+  },
+  {
+    "ticket1": "SEC-789",
+    "ticket2": "DOC-567",
+    "confidence": 0.5735924243927002
+  },
+  {
+    "ticket1": "SEC-789",
+    "ticket2": "FEAT-789",
+    "confidence": 0.587537944316864
+  },
+  {
+    "ticket1": "SEC-789",
+    "ticket2": "MOBILE-234",
+    "confidence": 0.5766327977180481
+  },
+  {
+    "ticket1": "SEC-789",
+    "ticket2": "SEC-901",
+    "confidence": 0.6197385787963867
+  },
+  {
+    "ticket1": "SEC-789",
+    "ticket2": "UI-567",
+    "confidence": 0.6130902767181396
+  },
+  {
+    "ticket1": "SEC-789",
+    "ticket2": "PERF-789",
+    "confidence": 0.603476881980896
+  },
+  {
+    "ticket1": "PERF-456",
+    "ticket2": "UI-234",
+    "confidence": 0.617579996585846
+  },
+  {
+    "ticket1": "PERF-456",
+    "ticket2": "INFRA-567",
+    "confidence": 0.671772301197052
+  },
+  {
+    "ticket1": "PERF-456",
+    "ticket2": "API-890",
+    "confidence": 0.6614805459976196
+  },
+  {
+    "ticket1": "PERF-456",
+    "ticket2": "TEST-456",
+    "confidence": 0.6318678259849548
+  },
+  {
+    "ticket1": "PERF-456",
+    "ticket2": "MON-123",
+    "confidence": 0.605661153793335
+  },
+  {
+    "ticket1": "PERF-456",
+    "ticket2": "DOC-567",
+    "confidence": 0.6300255656242371
+  },
+  {
+    "ticket1": "PERF-456",
+    "ticket2": "FEAT-789",
+    "confidence": 0.6303366422653198
+  },
+  {
+    "ticket1": "PERF-456",
+    "ticket2": "MOBILE-234",
+    "confidence": 0.6236276030540466
+  },
+  {
+    "ticket1": "PERF-456",
+    "ticket2": "SEC-901",
+    "confidence": 0.6538559198379517
+  },
+  {
+    "ticket1": "PERF-456",
+    "ticket2": "UI-567",
+    "confidence": 0.6352380514144897
+  },
+  {
+    "ticket1": "PERF-456",
+    "ticket2": "PERF-789",
+    "confidence": 0.6385300159454346
+  },
+  {
+    "ticket1": "UI-234",
+    "ticket2": "INFRA-567",
+    "confidence": 0.6991801261901855
+  },
+  {
+    "ticket1": "UI-234",
+    "ticket2": "API-890",
+    "confidence": 0.6968652009963989
+  },
+  {
+    "ticket1": "UI-234",
+    "ticket2": "TEST-456",
+    "confidence": 0.664829671382904
+  },
+  {
+    "ticket1": "UI-234",
+    "ticket2": "MON-123",
+    "confidence": 0.6464961767196655
+  },
+  {
+    "ticket1": "UI-234",
+    "ticket2": "DOC-567",
+    "confidence": 0.6633428931236267
+  },
+  {
+    "ticket1": "UI-234",
+    "ticket2": "FEAT-789",
+    "confidence": 0.6789826154708862
+  },
+  {
+    "ticket1": "UI-234",
+    "ticket2": "MOBILE-234",
+    "confidence": 0.6672866344451904
+  },
+  {
+    "ticket1": "UI-234",
+    "ticket2": "SEC-901",
+    "confidence": 0.6814320087432861
+  },
+  {
+    "ticket1": "UI-234",
+    "ticket2": "UI-567",
+    "confidence": 0.6679704785346985
+  },
+  {
+    "ticket1": "UI-234",
+    "ticket2": "PERF-789",
+    "confidence": 0.6798838376998901
+  },
+  {
+    "ticket1": "INFRA-567",
+    "ticket2": "API-890",
+    "confidence": 0.66425621509552
+  },
+  {
+    "ticket1": "INFRA-567",
+    "ticket2": "TEST-456",
+    "confidence": 0.6274781227111816
+  },
+  {
+    "ticket1": "INFRA-567",
+    "ticket2": "MON-123",
+    "confidence": 0.6032930612564087
+  },
+  {
+    "ticket1": "INFRA-567",
+    "ticket2": "DOC-567",
+    "confidence": 0.6285139322280884
+  },
+  {
+    "ticket1": "INFRA-567",
+    "ticket2": "FEAT-789",
+    "confidence": 0.6308586597442627
+  },
+  {
+    "ticket1": "INFRA-567",
+    "ticket2": "MOBILE-234",
+    "confidence": 0.6180197596549988
+  },
+  {
+    "ticket1": "INFRA-567",
+    "ticket2": "SEC-901",
+    "confidence": 0.6483199596405029
+  },
+  {
+    "ticket1": "INFRA-567",
+    "ticket2": "UI-567",
+    "confidence": 0.6368611454963684
+  },
+  {
+    "ticket1": "INFRA-567",
+    "ticket2": "PERF-789",
+    "confidence": 0.6517664194107056
+  },
+  {
+    "ticket1": "API-890",
+    "ticket2": "TEST-456",
+    "confidence": 0.6523473858833313
+  },
+  {
+    "ticket1": "API-890",
+    "ticket2": "MON-123",
+    "confidence": 0.6292394399642944
+  },
+  {
+    "ticket1": "API-890",
+    "ticket2": "DOC-567",
+    "confidence": 0.6486986875534058
+  },
+  {
+    "ticket1": "API-890",
+    "ticket2": "FEAT-789",
+    "confidence": 0.6649645566940308
+  },
+  {
+    "ticket1": "API-890",
+    "ticket2": "MOBILE-234",
+    "confidence": 0.6588299870491028
+  },
+  {
+    "ticket1": "API-890",
+    "ticket2": "SEC-901",
+    "confidence": 0.6969156265258789
+  },
+  {
+    "ticket1": "API-890",
+    "ticket2": "UI-567",
+    "confidence": 0.6599715352058411
+  },
+  {
+    "ticket1": "API-890",
+    "ticket2": "PERF-789",
+    "confidence": 0.677949070930481
+  },
+  {
+    "ticket1": "TEST-456",
+    "ticket2": "MON-123",
+    "confidence": 0.5894949436187744
+  },
+  {
+    "ticket1": "TEST-456",
+    "ticket2": "DOC-567",
+    "confidence": 0.6042845249176025
+  },
+  {
+    "ticket1": "TEST-456",
+    "ticket2": "FEAT-789",
+    "confidence": 0.624254584312439
+  },
+  {
+    "ticket1": "TEST-456",
+    "ticket2": "MOBILE-234",
+    "confidence": 0.6100330948829651
+  },
+  {
+    "ticket1": "TEST-456",
+    "ticket2": "SEC-901",
+    "confidence": 0.6525651216506958
+  },
+  {
+    "ticket1": "TEST-456",
+    "ticket2": "UI-567",
+    "confidence": 0.6284984946250916
+  },
+  {
+    "ticket1": "TEST-456",
+    "ticket2": "PERF-789",
+    "confidence": 0.6369604468345642
+  },
+  {
+    "ticket1": "MON-123",
+    "ticket2": "DOC-567",
+    "confidence": 0.6464945673942566
+  },
+  {
+    "ticket1": "MON-123",
+    "ticket2": "FEAT-789",
+    "confidence": 0.6684377789497375
+  },
+  {
+    "ticket1": "MON-123",
+    "ticket2": "MOBILE-234",
+    "confidence": 0.6490518450737
+  },
+  {
+    "ticket1": "MON-123",
+    "ticket2": "SEC-901",
+    "confidence": 0.6810073852539062
+  },
+  {
+    "ticket1": "MON-123",
+    "ticket2": "UI-567",
+    "confidence": 0.6664741635322571
+  },
+  {
+    "ticket1": "MON-123",
+    "ticket2": "PERF-789",
+    "confidence": 0.6726844906806946
+  },
+  {
+    "ticket1": "DOC-567",
+    "ticket2": "FEAT-789",
+    "confidence": 0.6388307809829712
+  },
+  {
+    "ticket1": "DOC-567",
+    "ticket2": "MOBILE-234",
+    "confidence": 0.636547327041626
+  },
+  {
+    "ticket1": "DOC-567",
+    "ticket2": "SEC-901",
+    "confidence": 0.6534485816955566
+  },
+  {
+    "ticket1": "DOC-567",
+    "ticket2": "UI-567",
+    "confidence": 0.6354048252105713
+  },
+  {
+    "ticket1": "DOC-567",
+    "ticket2": "PERF-789",
+    "confidence": 0.6455604434013367
+  },
+  {
+    "ticket1": "FEAT-789",
+    "ticket2": "MOBILE-234",
+    "confidence": 0.6417092680931091
+  },
+  {
+    "ticket1": "FEAT-789",
+    "ticket2": "SEC-901",
+    "confidence": 0.6860823035240173
+  },
+  {
+    "ticket1": "FEAT-789",
+    "ticket2": "UI-567",
+    "confidence": 0.6619898080825806
+  },
+  {
+    "ticket1": "FEAT-789",
+    "ticket2": "PERF-789",
+    "confidence": 0.6711438894271851
+  },
+  {
+    "ticket1": "MOBILE-234",
+    "ticket2": "SEC-901",
+    "confidence": 0.702022910118103
+  },
+  {
+    "ticket1": "MOBILE-234",
+    "ticket2": "UI-567",
+    "confidence": 0.6658706665039062
+  },
+  {
+    "ticket1": "MOBILE-234",
+    "ticket2": "PERF-789",
+    "confidence": 0.6787019968032837
+  },
+  {
+    "ticket1": "SEC-901",
+    "ticket2": "UI-567",
+    "confidence": 0.6656367182731628
+  },
+  {
+    "ticket1": "SEC-901",
+    "ticket2": "PERF-789",
+    "confidence": 0.6751145124435425
+  },
+  {
+    "ticket1": "UI-567",
+    "ticket2": "PERF-789",
+    "confidence": 0.6213817000389099
+  }
+]

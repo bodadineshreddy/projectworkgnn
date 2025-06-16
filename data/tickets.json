@@ -1,0 +1,170 @@
+[
+    {
+        "id": "ENT-22970",
+        "title": "Issue with login authentication",
+        "text": "Users unable to login after recent deployment",
+        "Summary": "Authentication failure after deployment",
+        "Description": "Multiple users reported inability to login after the latest deployment. Error 500 occurring.",
+        "Priority": "High",
+        "links": [
+            {"ticket_id": "PORT-133061", "relationship": "clone"},
+            {"ticket_id": "SEC-789", "relationship": "relates_to"}
+        ]
+    },
+    {
+        "id": "PORT-133061",
+        "title": "Clone: Login authentication issue",
+        "text": "Clone of ENT-22970 for portal team investigation",
+        "Summary": "Investigation of login failures",
+        "Description": "Portal team investigation of authentication failures reported in ENT-22970",
+        "Priority": "High",
+        "links": [
+            {"ticket_id": "SEC-789", "relationship": "relates_to"}
+        ]
+    },
+    {
+        "id": "SEC-789",
+        "title": "Security review for authentication system",
+        "text": "Conduct security audit of login system",
+        "Summary": "Security audit of login system",
+        "Description": "Conducting security review of the authentication system following recent failures.",
+        "Priority": "High",
+        "links": [
+            {"ticket_id": "SEC-790", "relationship": "blocks"}
+        ]
+    },
+    {
+        "id": "PERF-456",
+        "title": "Optimize database queries for login",
+        "text": "Performance optimization needed",
+        "Summary": "Login query optimization",
+        "Description": "Optimize database queries in the login flow to improve performance during peak hours.",
+        "Priority": "Medium",
+        "links": [
+            {"ticket_id": "ENT-1744", "relationship": "relates_to"}
+        ]
+    },
+    {
+        "id": "UI-234",
+        "title": "Improve login page UX",
+        "text": "UX improvements needed",
+        "Summary": "Login page UX improvements",
+        "Description": "Enhance user experience on the login page with better error messages and loading states.",
+        "Priority": "Low",
+        "links": [
+            {"ticket_id": "UI-235", "relationship": "blocks"}
+        ]
+    },
+    {
+        "id": "INFRA-567",
+        "title": "Load balancer configuration for auth service",
+        "text": "Configure load balancing",
+        "Summary": "Auth service load balancing",
+        "Description": "Configure load balancer for the authentication service to improve reliability.",
+        "Priority": "Medium",
+        "links": [
+            {"ticket_id": "PERF-456", "relationship": "relates_to"}
+        ]
+    },
+    {
+        "id": "API-890",
+        "title": "New API endpoint for password reset",
+        "text": "Implement password reset API",
+        "Summary": "Password reset API implementation",
+        "Description": "Create new API endpoint for password reset functionality with rate limiting.",
+        "Priority": "Medium",
+        "links": [
+            {"ticket_id": "SEC-789", "relationship": "relates_to"}
+        ]
+    },
+    {
+        "id": "TEST-456",
+        "title": "Integration tests for auth system",
+        "text": "Add integration tests",
+        "Summary": "Auth system testing",
+        "Description": "Implement comprehensive integration tests for the authentication system.",
+        "Priority": "Medium",
+        "links": [
+            {"ticket_id": "ENT-22970", "relationship": "relates_to"}
+        ]
+    },
+    {
+        "id": "MON-123",
+        "title": "Add monitoring for auth failures",
+        "text": "Implement auth monitoring",
+        "Summary": "Auth failure monitoring",
+        "Description": "Set up monitoring and alerts for authentication failures and unusual patterns.",
+        "Priority": "High",
+        "links": [
+            {"ticket_id": "SEC-789", "relationship": "relates_to"}
+        ]
+    },
+    {
+        "id": "DOC-567",
+        "title": "Update authentication documentation",
+        "text": "Documentation updates needed",
+        "Summary": "Auth system documentation",
+        "Description": "Update technical documentation for authentication system including new security measures.",
+        "Priority": "Low",
+        "links": [
+            {"ticket_id": "SEC-789", "relationship": "relates_to"}
+        ]
+    },
+    {
+        "id": "FEAT-789",
+        "title": "Implement SSO integration",
+        "text": "Add SSO support",
+        "Summary": "Single Sign-On integration",
+        "Description": "Integrate Single Sign-On (SSO) functionality with existing auth system.",
+        "Priority": "High",
+        "links": [
+            {"ticket_id": "SEC-789", "relationship": "relates_to"},
+            {"ticket_id": "API-890", "relationship": "blocks"}
+        ]
+    },
+    {
+        "id": "MOBILE-234",
+        "title": "Mobile app authentication issues",
+        "text": "Auth problems in mobile app",
+        "Summary": "Mobile auth investigation",
+        "Description": "Investigate and fix authentication issues specific to mobile app users.",
+        "Priority": "High",
+        "links": [
+            {"ticket_id": "ENT-22970", "relationship": "relates_to"}
+        ]
+    },
+    {
+        "id": "SEC-901",
+        "title": "Implement MFA support",
+        "text": "Add Multi-Factor Authentication",
+        "Summary": "MFA implementation",
+        "Description": "Add support for Multi-Factor Authentication to enhance security.",
+        "Priority": "High",
+        "links": [
+            {"ticket_id": "SEC-789", "relationship": "relates_to"},
+            {"ticket_id": "FEAT-789", "relationship": "blocks"}
+        ]
+    },
+    {
+        "id": "UI-567",
+        "title": "Redesign login flow",
+        "text": "Update login UI/UX",
+        "Summary": "Login flow redesign",
+        "Description": "Implement new design for login flow with improved user experience.",
+        "Priority": "Medium",
+        "links": [
+            {"ticket_id": "UI-234", "relationship": "relates_to"}
+        ]
+    },
+    {
+        "id": "PERF-789",
+        "title": "Cache optimization for auth service",
+        "text": "Optimize caching",
+        "Summary": "Auth service caching",
+        "Description": "Implement caching improvements for authentication service performance.",
+        "Priority": "Medium",
+        "links": [
+            {"ticket_id": "PERF-456", "relationship": "relates_to"}
+        ]
+    }
+]
