@@ -53,6 +53,10 @@ def visualize_graph(G, save_path='data/ticket_graph.png'):
             edge_color='gray',
             width=0.5)
     
+    # Add edge labels (weights/distances)
+    edge_labels = nx.get_edge_attributes(G, 'weight')
+    nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=6)
+    
     # Add title
     plt.title("Ticket Relationship Graph\nColors: Red=High Priority, Orange=Medium, Green=Low", 
               pad=20, fontsize=12)
