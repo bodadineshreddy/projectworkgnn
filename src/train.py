@@ -15,7 +15,7 @@ def load_tickets(file_path: str) -> List[Dict]:
 
 def train_model(tickets: List[Dict], epochs: int = 300, save_path: str = None):
     """
-    Train the GNN model on ticket data.
+    Train the GNN model on ticket data with improved training strategy.
     
     Args:
         tickets: List of ticket dictionaries
@@ -26,7 +26,7 @@ def train_model(tickets: List[Dict], epochs: int = 300, save_path: str = None):
     processor = TicketDataProcessor()
     data = processor.process_tickets(tickets)
     
-    # Initialize model
+    # Initialize model with improved architecture
     input_dim = data.x.size(1)
     model = TicketGraphAutoencoder(input_dim)
     
@@ -34,37 +34,55 @@ def train_model(tickets: List[Dict], epochs: int = 300, save_path: str = None):
     if save_path:
         os.makedirs(save_path, exist_ok=True)
     
-    # Training loop
+    # Training loop with early stopping
     losses = []
     best_loss = float('inf')
+    patience = 10
+    no_improve_count = 0
     progress_bar = tqdm(range(epochs), desc='Training')
     
     for epoch in progress_bar:
-        # Train for multiple steps per epoch for better convergence
+        # Multiple training steps per epoch for better convergence
         epoch_losses = []
         for _ in range(5):  # 5 steps per epoch
             loss = model.train_step(data)
-            epoch_losses.append(loss)
+            if loss > 0:  # Only consider valid loss values
+                epoch_losses.append(loss)
         
-        avg_loss = np.mean(epoch_losses)
-        losses.append(avg_loss)
-        
-        # Update progress bar
-        progress_bar.set_postfix({'loss': f'{avg_loss:.4f}'})
-        
-        # Save best model
-        if save_path and avg_loss < best_loss:
-            best_loss = avg_loss
-            torch.save(model.state_dict(), os.path.join(save_path, 'best_model.pt'))
-        
-        # Save checkpoint every 50 epochs
-        if save_path and (epoch + 1) % 50 == 0:
-            torch.save({
-                'epoch': epoch,
-                'model_state_dict': model.state_dict(),
-                'loss': avg_loss,
-                'losses': losses
-            }, os.path.join(save_path, f'checkpoint_epoch_{epoch+1}.pt'))
+        if epoch_losses:
+            avg_loss = np.mean(epoch_losses)
+            losses.append(avg_loss)
+            
+            # Update progress bar
+            progress_bar.set_postfix({'loss': f'{avg_loss:.4f}'})
+            
+            # Save best model and check early stopping
+            if save_path and avg_loss < best_loss:
+                best_loss = avg_loss
+                torch.save({
+                    'epoch': epoch,
+                    'model_state_dict': model.state_dict(),
+                    'loss': avg_loss,
+                    'input_dim': input_dim
+                }, os.path.join(save_path, 'best_model.pt'))
+                no_improve_count = 0
+            else:
+                no_improve_count += 1
+            
+            # Early stopping
+            if no_improve_count >= patience:
+                print(f"\nEarly stopping triggered after {epoch + 1} epochs")
+                break
+            
+            # Save checkpoint every 50 epochs
+            if save_path and (epoch + 1) % 50 == 0:
+                torch.save({
+                    'epoch': epoch,
+                    'model_state_dict': model.state_dict(),
+                    'loss': avg_loss,
+                    'losses': losses,
+                    'input_dim': input_dim
+                }, os.path.join(save_path, f'checkpoint_epoch_{epoch+1}.pt'))
     
     # Plot training curve
     plt.figure(figsize=(10, 5))
